@@ -16,7 +16,18 @@ public class BaseSetup
             .Build();
 
         var baseFhirAddress = Configuration["BaseFhirAddress"];
+        
+        if (string.IsNullOrEmpty(baseFhirAddress))
+        {
+            throw new InvalidOperationException("Базовый адрес FHIR не настроен.");
+        }
+
         var authorizationToken = Configuration["AuthorizationToken"];
+        
+        if (string.IsNullOrEmpty(authorizationToken))
+        {
+            throw new InvalidOperationException("Токен авторизации не настроен.");
+        }
 
         var fhirClientManager = new FhirClientManager(baseFhirAddress, authorizationToken);
         PatientHelper.Initialize(fhirClientManager);
