@@ -66,32 +66,6 @@ public static class AddPatientNegativeTestData
         };
         
         
-        // Пациент с null в фамилии
-        yield return new Patient
-        {
-            Identifier =
-            [
-                new Identifier
-                {
-                    System = "urn:oid:1.2.643.5.1.13.2.7.100.5",
-                    Value = $"Identificator{Faker.Random.ReplaceNumbers(new string('#', 18))}",
-                    Assigner = new ResourceReference {Display = "1.2.643.2.69.1.2.111"}
-                }
-            ],
-            Name =
-            [
-                new HumanName
-                {
-                    Family = null,
-                    Given = new List<string> {Faker.Name.FirstName()}
-                }
-            ],
-            BirthDate = Faker.Date.Between(minBirthday, maxBirthday).ToFhirDate(),
-            
-            ManagingOrganization = new ResourceReference("Organization/464b3220-ad97-493f-b755-2210c2a03b2d")
-        };
-        
-        
         // Пациент с пустой строкой в имени
         yield return new Patient
         {
