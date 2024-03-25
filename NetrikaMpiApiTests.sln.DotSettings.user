@@ -1,0 +1,23 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Users\TUF GAMING\.nuget\packages\hl7.fhir.base\5.7.0\lib\net8.0\Hl7.Fhir.Base.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5e85f6cd_002D86cc_002D469b_002Da6e4_002Dab81d91c1c61/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87E5AF64-6C8C-4581-A122-9EFE4029B813::net8.0::MpiApiTests.Tests.Fhir.AddUserTests.AddPatientPositiveTests.AddPatientTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87E5AF64-6C8C-4581-A122-9EFE4029B813::net8.0::MpiApiTests.Tests.Fhir.AddUserTests.AddPatientPositiveTests.AddNewPatientTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a7135a01_002D221a_002D4893_002Da95f_002D87e31e67e2fd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddPatientTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::87E5AF64-6C8C-4581-A122-9EFE4029B813::net8.0::MpiApiTests.Tests.Fhir.AddPatient.AddPatientPositive.AddPatientPositiveTests.AddPatientTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b5d13579_002D2ca6_002D4133_002Da95f_002D6b3b0c92ee1e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddNewPatientTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e48d1291_002Dc327_002D4850_002Dad24_002Ddf94fa1c6b66/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddNewPatientTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/Monitoring/IsToolWindowHidden/@EntryValue">True</s:Boolean></wpf:ResourceDictionary>
