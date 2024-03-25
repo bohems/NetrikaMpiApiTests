@@ -17,6 +17,6 @@ public class UpdatePatientPositiveTests
         
         const string errorMessage = $"Обновлённый {nameof(Patient.Name)} пациента не совпадает с теми, что был возвращён.";
         
-        CollectionAssert.AreEquivalent(patient.Name, updatedPatient?.Name);
+        CollectionAssert.AreEquivalent(patient.Name, updatedPatient?.Name, errorMessage);
     }
 }
