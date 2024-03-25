@@ -13,8 +13,10 @@ public class AddPatientPositiveTests
     {
         var createdPatient = await PatientHelper.CreatePatientAsync(patient);
         
-        const string errorMessage = $"{nameof(Patient.Name)} должен быть эквивалентен отправленным данным.";
+        const string errorMessage = $"Данные созданного пациента не совпадают с теми, что были возвращены.";
         
         CollectionAssert.AreEquivalent(patient.Name, createdPatient?.Name, errorMessage); 
+        CollectionAssert.AreEquivalent(patient.Telecom, createdPatient?.Telecom, errorMessage);
+        CollectionAssert.AreEquivalent(patient.Address, createdPatient?.Address, errorMessage);
     }
 }

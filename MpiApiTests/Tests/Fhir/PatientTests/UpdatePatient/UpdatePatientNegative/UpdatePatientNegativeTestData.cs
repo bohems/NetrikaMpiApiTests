@@ -8,7 +8,6 @@ public static class UpdatePatientNegativeTestData
 {
     private static readonly Faker Faker = new Faker("ru");
     
-    
     public static IEnumerable<Patient> TestCases()
     {
         var minBirthday = new DateTime(1901, 1, 1);

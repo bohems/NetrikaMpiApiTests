@@ -38,10 +38,10 @@ public static class AddPatientPositiveTestData
             Telecom =
             [
                 new ContactPoint(ContactPoint.ContactPointSystem.Email, null, "+7-(989)1355987"),
-                new ContactPoint(ContactPoint.ContactPointSystem.Fax, null, "+7-(989)1355987"),
+                new ContactPoint(ContactPoint.ContactPointSystem.Fax, null, "79891355987"),
                 new ContactPoint(ContactPoint.ContactPointSystem.Other, null, "+7-(989)1355987"),
-                new ContactPoint(ContactPoint.ContactPointSystem.Pager, null, "+7-(989)1355987"),
-                new ContactPoint(ContactPoint.ContactPointSystem.Phone, null, "+7-(989)1355987")
+                new ContactPoint(ContactPoint.ContactPointSystem.Pager, null, "79891355987"),
+                new ContactPoint(ContactPoint.ContactPointSystem.Phone, null, "79891355987")
             ],
             Gender = Faker.PickRandom<AdministrativeGender>(),
             BirthDate = Faker.Date.Between(minBirthday, maxBirthday).ToFhirDate(),            
